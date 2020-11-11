@@ -17,4 +17,6 @@ def haversine(lon1, lat1, lon2, lat2):
     return round(c * r,2)
 
 if __name__ == "__main__":
-    print(f'{haversine(-73.935242,40.730610,2.348888,48.8534)}km')
+    pny = haversine(-73.935242,40.730610,2.348888,48.8534)
+    test = haversine(-73.935242,40.730610,2.348888,48.8534)
+    print(f'{pny}km')
