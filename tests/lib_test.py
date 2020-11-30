@@ -4,6 +4,7 @@
 import os
 import mlproject
 import pandas as pd
+
 # Import from our lib
 from mlproject.lib import clean_data
 import pytest
